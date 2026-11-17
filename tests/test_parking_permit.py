@@ -1,4 +1,9 @@
+import os
+import sys
 import pytest
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 from parking_permit import is_permit_valid
 
 

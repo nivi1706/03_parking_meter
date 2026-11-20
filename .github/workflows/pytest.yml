@@ -2,7 +2,14 @@ name: Python Tests
 
 on:
   push:
+    paths:
+      - '**.py'
+      - "tests/*.py"
+
   pull_request:
+    paths:
+      - '**.py'
+      - "tests/*.py"
 
 jobs:
   test:

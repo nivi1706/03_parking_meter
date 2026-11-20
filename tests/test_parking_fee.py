@@ -59,3 +59,5 @@ def test_float_minutes():
 def test_boolean_minutes():
     with pytest.raises(TypeError):
         calculate_parking_fee(True)
+
+# workflow trigger test
